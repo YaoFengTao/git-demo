@@ -134,22 +134,59 @@
 .main-content .slide-nav li:hover>a{
     color: white;
 }
+.main-content .banner {
+    margin-left: 10px;
+}
 .main-content .slide-nav li .second-menu{
-    width: 700px;
+    width: 680px;
     height: 458px;
-    background-color: aqua;
+    background-color: #fff   ;
     position:absolute;
     top: 0;
     left: 190px;
-    /* display: none; */
+    padding-left: 20px;
+    display: none;
 }
-/* .main-content .slide-nav li:hover .second-menu{
-    /* display: block; */
-
-
-.main-content .banner{
-    width: 690px;
+.main-content .slide-nav li:hover .second-menu{
+    display: block ;
+}
+.second-menu dl{
+    height: 36px;
+    line-height: 36px;
+}
+.second-menu dl:first-child{
+    margin-top: 10px;
+}
+.second-menu dt{
+    float: left;
+    width: 70px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.second-menu dd{
+    float: left;
+    
+}
+.second-menu dd a{
+    padding: 0 10px;
+    border-left: 1px solid #666;
+}
+.main-content .slide-other{
+    width: 290px;
     height: 458px;
-    margin: 0 10px;
-    background-color: pink;
+    margin-left: 10px;
 }
+.slide-other .message{
+    width: 288px;
+    height: 156px;
+    border: #d9d9d9 1px solid;
+    margin-bottom: 10px;
+}
+
+.slide-other .other_nav{
+    width: 290px;
+    height: 290px;
+    border: #d9d9d9 1px solid;
+}
+/*#endregion */
+
