@@ -190,3 +190,25 @@
 }
 /*#endregion */
 
+/* #region seckill */
+
+.seckill{
+    
+margin-top: 10px;
+}
+.seckill img{
+    float: left;
+    
+    margin-left: 11px;
+    cursor: pointer;
+}
+.seckill img:first-child{
+    margin-left: 0;
+}
+/* #endregion */
+.floor{
+    margin-top: 48px;
+}
+.floor .floor-nav{
+    height: 30px;
+    line-height: 30px;
